@@ -1,0 +1,12 @@
+{
+  "name": "remove-custom-bubbles",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "pasical",
+  "license": "MIT",
+  "devDependencies": {}
+}

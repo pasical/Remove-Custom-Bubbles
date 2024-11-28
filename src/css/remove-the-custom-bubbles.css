@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           Remove The Custom Bubbles
+@description    干掉 QQ 不知道哪个版本加入的气泡皮肤
+@preprocessor   transitio
+@version        1.0.0
+@homepageURL    https://github.com/pasical/Remove-Custom-Bubbles
+@author         E-core
+@license     	gpl-3.0
+==/UserStyle== */
+/*
+.msg-content-container {
+    border: 2px solid white !important;
+}
+*/
+@media (prefers-color-scheme: dark){
+   .msg-content-container:not(.container--self) {
+    background: #262626 !important;
+    color: white !important;
+    }
+
+    div.personalization-bubble {
+    opacity: 0 !important;
+    } 
+}
+
+@media (prefers-color-scheme: light){
+    .msg-content-container:not(.container--self) {
+     background: white !important;
+     color: black !important;
+     }
+ 
+     div.personalization-bubble {
+     opacity: 0 !important;
+     } 
+ }

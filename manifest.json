@@ -1,0 +1,27 @@
+{
+  "$schema": "https://github.com/LiteLoaderQQNT/Plugin-Template/raw/main/manifest_schema.json",
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "移除自定义气泡",
+  "slug": "Remove-Custom-Bubbles",
+  "description": "移除自定义气泡，并替换为默认极简主题样式",
+  "version": "1.0.0",
+  "icon": "./res/icon.png",
+  "thumb": "./res/icon.png",
+  "authors": [
+    {
+      "name": "pasical",
+      "link": "https://github.com/pasical"
+    }
+  ],
+  "platform": ["win32", "linux", "darwin"],
+  "injects": {
+    "renderer": "./src/renderer.js",
+    "main": "./src/main.js",
+    "preload": "./src/preload.js"
+  },
+  "repository": {
+    "repo": "pasical/Remove-Custom-Bubbles",
+    "branch": "main"
+  }
+}
