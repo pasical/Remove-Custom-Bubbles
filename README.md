@@ -1,4 +1,6 @@
 # Remove Custom Bubbles
+![icon](https://github.com/user-attachments/assets/a18f55a3-ae8e-42f5-8ea6-10f20877b439)
+
 一个适用 [LiteLoaderQQNT](https://liteloaderqqnt.github.io/) 的插件，可以移除 QQ 在 9.9.16.29725 版本开始加入的自定义气泡，并替换为默认极简主题样式。已适配深色/浅色模式
 #### ⚠️如果你使用了其他QQ主题（包括超级调色盘和第三方主题），那么可能会与本插件产生冲突
 
