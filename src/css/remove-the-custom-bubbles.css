@@ -1,21 +1,20 @@
-@media (prefers-color-scheme: dark){
-   .msg-content-container:not(.container--self) {
-    background: #262626 !important;
-    color: white !important;
-    }
-
+@media (prefers-color-scheme: dark) {
     div.personalization-bubble {
-    opacity: 0 !important;
-    } 
+        opacity: 0 !important;
+    }
+    .msg-content-container:not(.mix-message__container--market-face):not(.mix-message__container--pic):not(.container--self) {
+        background-color: #262626 !important;
+        color: white !important;
+    }
 }
 
-@media (prefers-color-scheme: light){
-    .msg-content-container:not(.container--self) {
-     background: white !important;
-     color: black !important;
-     }
- 
-     div.personalization-bubble {
-     opacity: 0 !important;
-     } 
- }
+@media (prefers-color-scheme: light) {
+    div.personalization-bubble {
+        opacity: 0 !important;
+    }
+    .msg-content-container:not(.mix-message__container--market-face):not(.mix-message__container--pic):not(.container--self) {
+        background-color: white !important;
+        color: black !important;
+    }
+}
+
