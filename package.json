@@ -1,7 +1,7 @@
 {
   "name": "remove-custom-bubbles",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "https://github.com/pasical/Remove-Custom-Bubbles",
   "main": "index.js",
   "scripts": {},

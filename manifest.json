@@ -5,7 +5,7 @@
   "name": "移除自定义气泡",
   "slug": "Remove-Custom-Bubbles",
   "description": "移除自定义气泡，并替换为默认极简主题样式",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "./res/icon.png",
   "thumb": "./res/icon.png",
   "authors": [
